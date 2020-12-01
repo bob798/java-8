@@ -8,6 +8,9 @@ public class Apple {
         return color;
     }
 
+    public Apple() {
+    }
+
     public Apple(String color, Integer weight) {
         this.color = color;
         this.weight = weight;

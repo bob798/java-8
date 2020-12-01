@@ -1,21 +1,21 @@
-package test;
+package ObserverPattern;
 
 import java.util.Vector;
 
 abstract class Subject {
 
-    private Vector<Obersver> obs = new Vector<>();
+    private Vector<Observer> obs = new Vector<>();
 
-    public void addObverver(Obersver obersver) {
-        obs.add(obersver);
+    public void addObserver(Observer observer) {
+        obs.add(observer);
     }
 
-    public void delObserver(Obersver obersver) {
-        obs.remove(obersver);
+    public void delObserver(Observer observer) {
+        obs.remove(observer);
     }
 
     public void notifyObserver() {
-        obs.forEach(Obersver::update);
+        obs.forEach(Observer::update);
     }
 
     public abstract void doSomething();

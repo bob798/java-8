@@ -1,4 +1,4 @@
-package me.bob.javaconcurrent.unit_2;
+package javaconcurrent.unit_2;
 
 import lombok.Data;
 

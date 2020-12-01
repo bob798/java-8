@@ -1,6 +1,6 @@
-package test;
+package ObserverPattern;
 
-public class ConcreteObserver implements Obersver {
+public class ConcreteObserver implements Observer {
 
     @Override
     public void update() {
@@ -9,8 +9,8 @@ public class ConcreteObserver implements Obersver {
 
     public static void main(String[] args) {
         ConcreteSubject concreteSubject = new ConcreteSubject();
-        concreteSubject.addObverver(new ConcreteObserver());
-        concreteSubject.addObverver(new ConcreteObserver());
+        concreteSubject.addObserver(new ConcreteObserver());
+        concreteSubject.addObserver(new ConcreteObserver());
         concreteSubject.doSomething();
     }
 }

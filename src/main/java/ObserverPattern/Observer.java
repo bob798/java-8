@@ -1,6 +1,6 @@
-package test;
+package ObserverPattern;
 
-public interface Obersver {
+public interface Observer {
 
     void update();
 }

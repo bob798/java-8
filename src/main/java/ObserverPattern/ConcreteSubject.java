@@ -1,4 +1,4 @@
-package test;
+package ObserverPattern;
 
 public class ConcreteSubject extends Subject {
     @Override

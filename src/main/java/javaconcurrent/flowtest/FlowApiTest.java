@@ -1,8 +1,7 @@
-package me.bob.javaconcurrent.flowtest;
+package javaconcurrent.flowtest;
 
 import java.util.concurrent.Flow;
 import java.util.concurrent.SubmissionPublisher;
-import java.util.concurrent.TimeUnit;
 
 public class FlowApiTest {
 

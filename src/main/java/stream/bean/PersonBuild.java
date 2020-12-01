@@ -1,11 +1,9 @@
 package stream.bean;
 
-import lombok.Data;
 
-
-public class Person {
-  private final String name;
-  private final  Integer age;
+public class PersonBuild {
+  private  String name;
+  private   Integer age;
 
   public String getName() {
     return name;
@@ -16,15 +14,15 @@ public class Person {
   }
 
   public static  Builder builder() {
-    return Person.Builder;
+    return new PersonBuild.Builder();
   }
 
   public static class Builder {
     private String name;
     private Integer age;
 
-    public Person build() {
-      return new Person(this);
+    public PersonBuild build() {
+      return new PersonBuild();
     }
     public Builder withName(String name) {
       this.name = name;

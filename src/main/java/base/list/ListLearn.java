@@ -1,4 +1,4 @@
-package list;
+package base.list;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,7 +9,7 @@ import java.util.List;
  * agileCloud
  * list
  * Created by bob on 18-9-27.
- * Description:  
+ * Description:
  *******************************************************************************/
 public class ListLearn {
 

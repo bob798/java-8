@@ -1,4 +1,4 @@
-package list;
+package base.list;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,7 +8,7 @@ import java.util.Map;
  * agileCloud
  * list
  * Created by bob on 18-10-16.
- * Description:  
+ * Description:
  *******************************************************************************/
 public class HashMapLearn {
 

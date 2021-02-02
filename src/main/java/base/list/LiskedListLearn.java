@@ -1,4 +1,4 @@
-package list;
+package base.list;
 
 import java.util.LinkedList;
 
@@ -7,7 +7,7 @@ import java.util.LinkedList;
  * agileCloud
  * list
  * Created by bob on 18-10-11.
- * Description:  
+ * Description:
  *******************************************************************************/
 public class LiskedListLearn {
     public static void main(String[] args) {
